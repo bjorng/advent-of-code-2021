@@ -87,8 +87,6 @@ defmodule Day18 do
   [5,6]
   iex> Day18.split_number(12)
   [6,6]
-  iex> Day18.split_number(12)
-  [6,6]
   """
   def split_number(n) do
     q = n / 2

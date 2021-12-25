@@ -9,10 +9,6 @@ defmodule Day25 do
     |> elem(1)
   end
 
-  def part2(input) do
-    parse(input)
-  end
-
   defp move(grid) do
     case move_one(grid, :east) do
       nil ->
